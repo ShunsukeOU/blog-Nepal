@@ -24,7 +24,10 @@ minimal_mistakes_skin: sunrise
 search: true
 
 # Build settings
-markdown: kramdown
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
@@ -59,7 +62,7 @@ plugins:
 author:
   name   : "Shunsuke Taira"
   avatar : "/assets/images/myicon.jpeg"
-  bio    : "2025.08.13~ネパールのカトマンズに渡航予定．渡航先での学びや日常を記録します．"
+  bio    : "2025.08.13~ネパールのカトマンズに渡航予定．  渡航先での学びや日常を記録します．"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
