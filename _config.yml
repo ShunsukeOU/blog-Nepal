@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://ShunsukeOU.github.io" # ★GitHub Pagesの基本URL
 baseurl: "/blog-Nepal"             # ★リポジトリ名を指定
 github_username: ShunsukeOU
-minimal_mistakes_skin: default
+minimal_mistakes_skin: sunrise
 search: true
 
 # Build settings
@@ -59,32 +59,23 @@ plugins:
 author:
   name   : "Shunsuke Taira"
   avatar : "/assets/images/myicon.jpeg"
-  bio    : "プロフィールを書く"
+  bio    : "2025.08.13~ネパールのカトマンズに渡航予定．渡航先での学びや日常を記録します．"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/ShunsukeOU"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/eng3_shun"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/ShunsukeOU"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/eng3_shun"
 
 defaults:
   # _posts
