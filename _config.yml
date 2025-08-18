@@ -60,9 +60,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Shunsuke Taira"
+  name   : "Shunsuke"
   avatar : "/assets/images/myicon.jpeg"
-  bio    : "2025.08.13~ネパールのカトマンズに渡航予定．  渡航先での学びや日常を記録します．"
+  bio    : "ネパールのカトマンズに渡航予定．  渡航先での学びや日常を記録します．"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
