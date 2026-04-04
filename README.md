@@ -1,27 +1,24 @@
-# Minimal Mistakes remote theme starter
+# My Diary
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+このリポジトリは、個人ブログの技術ポートフォリオのソースコードを管理しています。
+GitHub PagesとJekyll（利用テーマ：Minimal Mistakes）を使用して構築しています。
 
-Contains basic configuration to get you a site with:
+## 🖋 このブログについて
+主に以下の内容について発信しています。
+*   **海外ボランティア経験:** ネパールでの約５週間の教育ボランティアで得た知見や異文化理解について。
+*   **利用技術に関する知識** ブログを作るにあたって学んだ内容の振り返り。
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## 🛠 技術構成
+*   **Static Site Generator:** Jekyll
+*   **Theme:** Minimal Mistakes
+*   **Hosting:** GitHub Pages
+*   **Deployment:** GitHub Actions
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## 🚀 運営の目的
+学生、エンジニアとして「言語化能力」と「継続的なアウトプット」を磨くことを目的としています。
+海外での経験を、それによる学び・成長・感想とともに記録しています。
 
----
-
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+## 📂 フォルダ構造の備忘録（自分用）
+*   `_posts/`: ブログ記事（Markdown）
+*   `assets/images/`: 記事内で使用する写真・画像
+*   `_config.yml`: サイトの基本設定・サイドバー設定
