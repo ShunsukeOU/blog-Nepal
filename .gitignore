@@ -1,4 +1,18 @@
-_site
-.sass-cache
-.jekyll-metadata
-Gemfile.lock
+# 依存関係
+node_modules/
+
+# ビルド成果物
+.next/
+out/
+build/
+
+# 環境変数（最重要！）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS特有のファイル
+.DS_Store
+Thumbs.db
