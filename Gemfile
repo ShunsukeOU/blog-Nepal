@@ -12,10 +12,11 @@ group :jekyll_plugins do
   gem "jekyll-remote-theme"
 end
 
-# Ruby 3.3環境でビルドエラーを防ぐために必須
+# GitHub Actions (Ruby 3.3+) でのビルドエラー回避に必須
 gem "webrick", "~> 1.8"
 gem "base64", "~> 0.2"
 gem "bigdecimal", "~> 3.1"
 gem "mutex_m", "~> 0.2"
+gem "ostruct", "~> 0.6"
 
 gem "tzinfo-data"
