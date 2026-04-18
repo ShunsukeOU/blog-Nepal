@@ -102,6 +102,7 @@ GEM
     minitest (6.0.4)
       drb (~> 2.0)
       prism (~> 1.5)
+    mutex_m (0.3.0)
     net-http (0.9.1)
       uri (>= 0.11.1)
     nokogiri (1.19.2-arm-linux-gnu)
@@ -158,6 +159,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  base64 (~> 0.3.0)
+  bigdecimal (~> 4.1)
   google-protobuf (~> 3.25)
   jekyll (~> 4.4)
   jekyll-feed
@@ -167,6 +170,7 @@ DEPENDENCIES
   jekyll-remote-theme
   jekyll-sitemap
   jemoji
+  mutex_m (~> 0.3.0)
   tzinfo-data
   webrick (~> 1.8)
 
@@ -212,6 +216,7 @@ CHECKSUMS
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   mercenary (0.4.0) sha256=b25a1e4a59adca88665e08e24acf0af30da5b5d859f7d8f38fba52c28f405138
   minitest (6.0.4) sha256=df1304664589d40f46089247fdc451f866b0ce0d7cae1457a15fc1eb7d48dca1
+  mutex_m (0.3.0) sha256=cfcb04ac16b69c4813777022fdceda24e9f798e48092a2b817eb4c0a782b0751
   net-http (0.9.1) sha256=25ba0b67c63e89df626ed8fac771d0ad24ad151a858af2cc8e6a716ca4336996
   nokogiri (1.19.2-arm-linux-gnu) sha256=b7fa1139016f3dc850bda1260988f0d749934a939d04ef2da13bec060d7d5081
   nokogiri (1.19.2-arm-linux-musl) sha256=61114d44f6742ff72194a1b3020967201e2eb982814778d130f6471c11f9828c
