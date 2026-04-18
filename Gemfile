@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
+# GitHub Pagesの標準に近い構成にします
+gem "jekyll", "~> 4.4"
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
@@ -12,11 +13,7 @@ group :jekyll_plugins do
   gem "jekyll-remote-theme"
 end
 
+# 依存関係エラーを避けるため、これらを追加・整理します
+gem "webrick", "~> 1.8"
 gem "tzinfo-data"
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-gem "csv"
-gem "webrick"
-gem "base64"
-gem "bigdecimal"
-gem "ostruct"
+gem "google-protobuf", "~> 3.25" # sass-embeddedとの競合回避のため
