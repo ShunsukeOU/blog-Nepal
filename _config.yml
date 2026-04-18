@@ -1,7 +1,6 @@
 # Site settings
 title: My Diary
 logo: "/assets/images/myicon.jpeg"
-email: 
 description: >-
   渡航の記録
 url: "https://ShunsukeOU.github.io"
@@ -9,6 +8,9 @@ baseurl: "/blog-Nepal"
 github_username: ShunsukeOU
 minimal_mistakes_skin: sunrise
 search: true
+
+sass:
+  quiet_deps: true
 
 markdown: kramdown
 highlighter: rouge
@@ -41,7 +43,7 @@ plugins:
 author:
   name   : "Shunsuke"
   avatar : "/assets/images/myicon.jpeg"
-  bio    : "2025.08-09、ネパールのカトマンズに渡航。渡航先での学びや日常を記録します。"
+  bio    : "2025年夏，ネパールのカトマンズに渡航．渡航先での学びや日常を記録します．"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -61,7 +63,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: true
       share: true
       related: true
   - scope:
